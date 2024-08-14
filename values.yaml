@@ -1,0 +1,17 @@
+
+replicaCount: 2
+
+image:
+  repository: sumon124816/k8s
+  tag: "new"
+
+deployname: sumon-deploy
+deploylabel: bookapi
+podlabel: podapi
+podname: sumon-pod
+containername: hello
+containerport: 8000
+servicename: sumon-service
+servicelabel: serviceapi
+serviceport: 3211
+
